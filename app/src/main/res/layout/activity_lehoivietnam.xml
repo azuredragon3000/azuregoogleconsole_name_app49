@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#88f7f9"
+    tools:context=".ActivityLeHoiVietNam">
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/title"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/danhngonvietnam"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#fbd52d"
+        android:layout_marginTop="10dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/image_danhngonvietnam"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/danhngon"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/tv_danhngonvietnam"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/danhngonvietnam"
+            style="@style/gfgGreenText"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ngaylevietnam"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#fbd52d"
+        android:layout_marginTop="10dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/image_ngaylevietnam"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ngayle"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/tv_ngaylevietnam"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/ngaylevietnam"
+            style="@style/gfgGreenText"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lehoivietnam"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#fbd52d"
+        android:layout_marginTop="10dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/image_lehoivietnam"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/lehoi"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/tv_lehoivietnam"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/lehoivietnam"
+            style="@style/gfgGreenText"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>
